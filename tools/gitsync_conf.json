@@ -24,8 +24,8 @@
   "repositories": [
     {
       "name": "otus",
-      "path": "E:/storage_1c",
-      "dir": "./src/cf",
+      "path": "E:/HRAN",
+      "dir": "E:/storage_1c/src/cf",
       "temp-dir": "",
       "v8version": "8.3.26.1521",
       "plugins-config": {
