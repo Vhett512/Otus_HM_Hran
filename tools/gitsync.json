@@ -3,7 +3,7 @@
   "agent": "gitsync",
   "v8Version": "8.3.26.1521",
   "defaultInfobase": {
-    "connectionString": "/FC:/Users/otus/Documents/1C/Пустая база",
+    "connectionString": "/FC:/Users/otus/Documents/1C/empty",
     "auth": ""
   },
   "stages": {
