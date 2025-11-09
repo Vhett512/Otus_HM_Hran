@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AccumulationRegister uuid="320fc65a-f309-4cf1-aafd-53969c53837c">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ТоварныеЗапасы" category="Record">
+				<xr:TypeId>3c81f526-c3cb-4e40-a7dd-d907e13c1b5f</xr:TypeId>
+				<xr:ValueId>b242192f-be17-4373-8743-6bfab1a72cb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ТоварныеЗапасы" category="Manager">
+				<xr:TypeId>d73383fb-551e-44ba-bd6a-76a85a20ebde</xr:TypeId>
+				<xr:ValueId>49010d31-0664-4a51-8f69-17dce4f499a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ТоварныеЗапасы" category="Selection">
+				<xr:TypeId>2d120594-1300-407a-a449-29c41d3e2074</xr:TypeId>
+				<xr:ValueId>c3a2d98e-3973-4404-be1c-ddcd7f0d0276</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ТоварныеЗапасы" category="List">
+				<xr:TypeId>16b542c5-ad68-40ea-8fb2-c0a90c331c29</xr:TypeId>
+				<xr:ValueId>e45f6f66-d0eb-43fe-974c-a884dc9d5695</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ТоварныеЗапасы" category="RecordSet">
+				<xr:TypeId>b8e76abd-d88a-43d3-bd89-f1442c2e8ff1</xr:TypeId>
+				<xr:ValueId>0846fa57-4557-4db5-8f4a-fb429e796d63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ТоварныеЗапасы" category="RecordKey">
+				<xr:TypeId>6514910e-a1ad-4d9d-9474-4728092ef1c9</xr:TypeId>
+				<xr:ValueId>d4c75151-00a5-42ea-9d7d-3d8203d4d633</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТоварныеЗапасы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3d63bfa3-859a-4aa5-b357-410f077b41b8</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9da9f1a0-0aa4-48ca-a2be-5c1bc86a0ea6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>533d06d0-646d-4a5b-9eff-c2051d4f9c8e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="e74b3a3e-840b-4553-95b3-754ae3c95296">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товар</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2e7912d9-8486-4691-b340-237064466895</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Товары</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
