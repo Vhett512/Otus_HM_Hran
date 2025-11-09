@@ -24,7 +24,7 @@
   "repositories": [
     {
       "name": "otus",
-      "path": "E:/enterprise_1c",
+      "path": "E:/storage_1c",
       "dir": "./src/cf",
       "temp-dir": "",
       "v8version": "8.3.26.1521",
